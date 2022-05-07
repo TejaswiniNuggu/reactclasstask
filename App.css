@@ -5,39 +5,37 @@
   display: flex;
   height: 100px;
   width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 .Im{
-  height:500px;
-  display: flex;  
+  height:500px;  
   object-fit: cover;
-  width: 100%;
+  width: 340px;
+  
 }
 #oa {
-  border: 5px;
-  padding:10px;
-  height:10px;
-  width: 30%;
+  width:340px;
 }
 #seg2{
   display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 #n1 {
   text-align: left;
   font-size: 15px;
-  flex:2
+  
 }
 #r1 {
   font-size: 15px;
-  text-align:right;
+  margin:0;
   
 }
 #d1 {
   text-align:left;
   font: size 10px;
+  display: flex;
 }
 
-@media screen and (max-width:124px){
-   .App,#oa{display:flex;
-  }
-  }
