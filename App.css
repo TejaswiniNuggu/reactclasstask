@@ -1,0 +1,43 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  
+}
+.Im{
+  height:500px;
+  display: flex;  
+  object-fit: cover;
+  width: 100%;
+}
+#oa {
+  border: 5px;
+  padding:10px;
+  height:10px;
+  width: 30%;
+}
+#seg2{
+  display:flex;
+}
+#n1 {
+  text-align: left;
+  font-size: 15px;
+  flex:2
+}
+#r1 {
+  font-size: 15px;
+  text-align:right;
+  
+}
+#d1 {
+  text-align:left;
+  font: size 10px;
+}
+
+@media screen and (max-width:124px){
+   .App,#oa{display:flex;
+  }
+  }
